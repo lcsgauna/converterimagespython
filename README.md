@@ -21,7 +21,6 @@ pip install -r requirements.txt
 
 mkdir images
 mkdir new_files
-
 ```
 
 ## How to use
