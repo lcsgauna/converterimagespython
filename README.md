@@ -15,7 +15,7 @@ Linux:
 .venv\bin\activate
 
 Windows:
-.venv\Scripts\activa
+.venv\Scripts\activate
 
 pip install -r requirements.txt
 
