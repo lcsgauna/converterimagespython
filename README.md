@@ -1,6 +1,6 @@
-# Converter images using python
+# Converter file format images using python
 
-## Library used
+## Library
 
 * [Pillow](https://pillow.readthedocs.io/en/stable/)
 
