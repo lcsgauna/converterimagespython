@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 directory = r'./images'
-file_format = '.jpg'
+file_format_original = '.FILE_FORMAT_IMAGES'
 
 def createList(directory_path,file_format):
     for root, dirs, files in os.walk(directory_path):
@@ -22,7 +22,7 @@ def readList():
         return readlist.readlines()
         
 
-createList(directory,file_format)
+createList(directory,file_format_original)
 list_names = readList()
 for index in range(len(list_names)): 
     generateJpg(list_names[index].replace('\n',''))
